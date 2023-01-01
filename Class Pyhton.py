@@ -6,5 +6,9 @@ class Orang:
     def perkenalan(self):
         print(f"perkenalan nama saya {self.nama} dari {self.asal}")
     
+    def pergi(self):
+        print(f"{self.nama} pulang ke {self.asal}")
+   
+    
 andi = Orang('Andi','Surabaya')
 andi.perkenalan()
