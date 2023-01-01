@@ -8,6 +8,6 @@ class Orang:
     
     def makanan(self):
         print((f"{self.nama} dari {self.asal} membawa makanan rawon")
-    
+
 andi = Orang('Andi','Surabaya')
 andi.perkenalan()
